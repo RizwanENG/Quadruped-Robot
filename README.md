@@ -84,39 +84,6 @@ A four-legged mobile robot designed and modeled from scratch using **Autodesk Fu
 
 ---
 
-## Files in This Repository
-
-```
-quadruped-robot/
-├── CAD/
-│   ├── quadruped-assembly.f3z         (Fusion 360 source file)
-│   ├── quadruped-assembly.step        (STEP export for compatibility)
-│   ├── leg-assembly.f3z               (subassembly)
-│   ├── servo-bracket.f3z              (custom bracket)
-│   └── turret-mechanism.f3z           (dual-servo head)
-├── Drawings/
-│   ├── assembly-drawing.pdf           (engineering drawing with BOM)
-│   └── servo-mounting-details.pdf
-├── Simulation/
-│   ├── robodk-workspace.rdk           (motion planning simulation)
-│   └── trajectory-analysis.pdf
-├── images/
-│   ├── quadruped-assembled.png        (final product)
-│   ├── isometric-view.png
-│   ├── exploded-view.png
-│   ├── turret-mechanism-closeup.png
-│   └── robodk-simulation.png
-├── Hardware/
-│   ├── parts-list.txt                 (servo specs, fasteners, materials)
-│   ├── wiring-diagram.png
-│   └── assembly-guide.md
-└── README.md (this file)
-```
-
-### Alternative Viewers
-- **GrabCAD** – Upload `.f3z` for cloud viewing
-- **Thangs** – For community feedback on design
-
 ## Key Learnings
 
 - **Servo torque constraints** require careful CG placement and mechanical advantage calculations
