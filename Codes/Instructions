@@ -1,0 +1,24 @@
+7.1 Robot Startup Command
+This command sequence is used to initialize the quadruped robot locomotion system. The existing Node.js processes are terminated before executing the main robot control program to prevent process conflicts during operation.
+
+</> Bash
+
+cd ~/robodog
+sudo node robot.js
+
+7.2 Robot Stop Command
+This command is used to terminate the running Node.js robot control process and safely stop the quadruped robot movement and servo activity.
+
+</> Bash
+
+CTRL + C
+sudo pkill -9 node
+
+
+7.3 Face Tracking Turret Execution
+This command is used to execute the Python-based face tracking turret module using the Raspberry Pi camera and OpenCV face detection system.
+
+</> Bash
+
+cd ~/Arjuna-Timby/src
+python3 Arjuna.py
