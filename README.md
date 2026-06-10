@@ -4,7 +4,7 @@ Final Year Project
 
 
 ## Overview
-A four-legged mobile robot designed and modeled from scratch using **Autodesk Fusion 360**. The project combines mechanical design with hardware integration, featuring a custom dual-servo turret mechanism for head rotation and a Raspberry Pi-based control system.
+A four-legged mobile robot designed and re-modeled from Open Source Model using **Autodesk Fusion 360**. The project combines mechanical design with hardware integration, featuring a custom dual-servo turret mechanism for head rotation and a Raspberry Pi-based control system.
 
 **Role:** Mechanical Designer & Hardware Integrator  
 **Status:** Fully assembled and operational  
